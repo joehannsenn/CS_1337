@@ -12,11 +12,6 @@ int * promptOperands(int n);
 void compute(int * operands, int size, char operator);
 
 
-/* KNOWN ISSUES:
- * - promptOperator:
- *   entering a string causes multiple 'invalid input' messages.
- *   after the first loop, the '\n' character is automatically entered
- */
 
 void main(){
 	
